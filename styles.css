@@ -53,17 +53,41 @@ html {
 }
 .btn-primary{
     background-color: #FFA07A;
+    border: solid #FFA07A;
 }
-header{
-  margin: 0;
-  padding: 0;
-  width: 100%;
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+nav{
   background-image: url(flower-background.jpg);
 }
-.nav-item{
-  
-  border: solid #FFA07A;
+.navbar-toggler{
   background-color: #FFA07A;
-  gap: 10%;
-  
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
