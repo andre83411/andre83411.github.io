@@ -190,6 +190,7 @@ nav{
 .sub-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 100px;
 }
 .fa-envelope{
   color: #FFA07A;
