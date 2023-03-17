@@ -55,6 +55,7 @@ html {
   padding-bottom: 50px;
 }
 .btn-primary{
+    font-size: 24px;
     background-color: #FFA07A;
     border: solid #FFA07A;
 }
@@ -198,4 +199,14 @@ nav{
   align-content: center;
   padding-left: 125px;
   padding-bottom: 30px;
+}
+
+.grid-container{
+  padding-top: 5%;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 10px;
 }
